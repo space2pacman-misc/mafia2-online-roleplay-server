@@ -107,44 +107,6 @@ function getMoney(playerid) {
     sendPlayerMessage(playerid, "На вашем счету: $" + players[playerid]["money"], 135, 206, 250);
 }
 
-// test
-addCommandHandler("goto", function(playerid, x, y, z) {
-    setPlayerPosition( playerid, x.tofloat(), y.tofloat(), z.tofloat());
-});
-
-addCommandHandler("getcarpos", function(playerid) {
-    local vehicleId = getPlayerVehicle(playerid);
-    local p = getVehiclePosition(vehicleId);
-    local r = getVehicleRotation(vehicleId);
-
-    sendPlayerMessage(playerid, "POS: " + p[0] + " : " + p[1] + " : " + p[2]);
-    sendPlayerMessage(playerid, "DEG: " + r[0] + " : " + r[1] + " : " + r[2]);
-});
-addCommandHandler("givemeitem", function(playerid, id) {
-    setPlayerHandModel(playerid, 1, id.tointeger());
-});
-
-addCommandHandler("pos", function(playerid) {
-    local position = getPlayerPosition(playerid);
-
-    sendPlayerMessage(playerid, position[0] + " : " + position[1] + " : " + position[2]);
-});
-addCommandHandler("setmodel", function(playerid, id) {
-    setPlayerModel(playerid, id.tointeger());
-});
-addCommandHandler("vehicle", function( playerid, id ) {
-    local pos = getPlayerPosition( playerid );
-    local rot = getPlayerRotation( playerid );
-
-    if (playerid in playerVehicles) {
-        sendPlayerMessage(playerid, "Removing your old car, and creating new one :)");
-        destroyVehicle(playerVehicles[playerid]);
-    }
-
-    playerVehicles[playerid] <- createVehicle( id.tointeger(), pos[0] + 2.0, pos[1], pos[2] + 1.0, 0.0, rot[1], 0.0 );
-});
-//
-
 addCommandHandler("money", getMoney);
 addEventHandler("onScriptInit", init);
 addEventHandler("onAction", onAction);

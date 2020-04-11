@@ -12,7 +12,7 @@ local hands = {
 }
 
 function init() {
-	setGameModeText( "EB-RP" );
+    setGameModeText( "EB-RP" );
     setMapName( "Empire Bay" );
     setSummer(false);
     setWeather("DT03part03MariaAgnelo");
@@ -56,7 +56,7 @@ function onAction(playerid) {
         local playerModal = getPlayerModel(playerid);
 
         if(playerModal != models["loader"]) {
-        	players[playerid]["work"] = "loader";
+            players[playerid]["work"] = "loader";
             setPlayerModel(playerid, models["loader"]);
             sendPlayerMessage(playerid, "Вы устроились на работу грузчиком", 255, 127, 80);
             sendPlayerMessage(playerid, "Ящики помечены на карте", 255, 127, 80);
@@ -104,7 +104,7 @@ function onAction(playerid) {
 }
 
 function getMoney(playerid) {
-	sendPlayerMessage(playerid, "На вашем счету: $" + players[playerid]["money"], 135, 206, 250);
+    sendPlayerMessage(playerid, "На вашем счету: $" + players[playerid]["money"], 135, 206, 250);
 }
 
 // test

@@ -1,14 +1,14 @@
 local players = {};
 local models = {
-	"homeless": 153,
-	"loader": 63
+    "homeless": 153,
+    "loader": 63
 }
 local objects = {
-	"box": 98
+    "box": 98
 }
 local hands = {
-	"left": 1,
-	"right": 2
+    "left": 1,
+    "right": 2
 }
 
 function init() {
@@ -69,36 +69,36 @@ function onAction(playerid) {
             triggerClientEvent(playerid, "onClearJobLoadingBlips")
 
             if(players[playerid]["salary"] != 0) {
-	            sendPlayerMessage(playerid, "Вы заработали: $" + players[playerid]["salary"], 255, 127, 80);
-	            players[playerid]["money"] += players[playerid]["salary"];
-	            getMoney(playerid);
-	            players[playerid]["salary"] = 0;
-	            players[playerid]["work"] = "unemployed";
+                sendPlayerMessage(playerid, "Вы заработали: $" + players[playerid]["salary"], 255, 127, 80);
+                players[playerid]["money"] += players[playerid]["salary"];
+                getMoney(playerid);
+                players[playerid]["salary"] = 0;
+                players[playerid]["work"] = "unemployed";
             }
         }
 
     }
 
     if(boxLoadingPoint && players[playerid]["work"] == "loader") {
-    	triggerClientEvent(playerid, "onBoxUnloading");
-    	setPlayerHandModel(playerid, hands["left"], objects["box"]);
-    	setPlayerHandModel(playerid, hands["left"], objects["box"]);
-    	setPlayerAnimStyle(playerid, "common", "CarryBox");
-    	setPlayerAnimStyle(playerid, "common", "CarryBox");
-    	players[playerid]["hand"] = objects["box"];
+        riggerClientEvent(playerid, "onBoxUnloading");
+        etPlayerHandModel(playerid, hands["left"], objects["box"]);
+        etPlayerHandModel(playerid, hands["left"], objects["box"]);
+        etPlayerAnimStyle(playerid, "common", "CarryBox");
+        etPlayerAnimStyle(playerid, "common", "CarryBox");
+        layers[playerid]["hand"] = objects["box"];
     }
 
     if(boxUnloadingPoint && players[playerid]["work"] == "loader") {
-    	triggerClientEvent(playerid, "onBoxLoading");
-    	setPlayerHandModel(playerid, hands["left"], 0);
-    	setPlayerHandModel(playerid, hands["left"], 0);
-    	setPlayerAnimStyle(playerid, "common", "default");
-    	setPlayerAnimStyle(playerid, "common", "default");
-    	
-    	if(players[playerid]["hand"] != 0) {
-    		players[playerid]["hand"] = 0;
-    		players[playerid]["salary"] += 1;
-    		sendPlayerMessage(playerid, "Вы заработали: $1", 255, 127, 80);
+        triggerClientEvent(playerid, "onBoxLoading");
+        setPlayerHandModel(playerid, hands["left"], 0);
+        setPlayerHandModel(playerid, hands["left"], 0);
+        setPlayerAnimStyle(playerid, "common", "default");
+        setPlayerAnimStyle(playerid, "common", "default");
+        
+        if(players[playerid]["hand"] != 0) {
+            players[playerid]["hand"] = 0;
+            players[playerid]["salary"] += 1;
+            sendPlayerMessage(playerid, "Вы заработали: $1", 255, 127, 80);
     	}
     }
 }

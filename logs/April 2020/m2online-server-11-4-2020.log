@@ -1,0 +1,153 @@
+[20:01:30] ==============================================================
+[20:01:30] = Mafia2-Online v0.1 RC4 [Windows]
+[20:01:30] ==============================================================
+[20:01:30] = Server name    : Mafia2-Online RolePlay
+[20:01:30] = Server port    : 7777
+[20:01:30] = Max players    : 1000
+[20:01:30] = Has password   : No
+[20:01:30] = Log file       : logs/April 2020/m2online-server-11-4-2020.log
+[20:01:30] ==============================================================
+[20:01:31] Successfully loaded 1 resources. (0 failed)
+
+[20:04:32] [network] Incoming connection from 127.0.0.1:14565.
+[20:04:32] [join] space2pacman has connected to the server.
+[20:04:32] [spawn] space2pacman has spawned.
+[20:05:21] Script Error: AN ERROR HAS OCCURED [the index 'riggerClientEvent' does not exist]
+[20:05:21] Script Error: CALLSTACK
+[20:05:21] Script Error: *FUNCTION [onAction()] resources/default/server/roleplay.nut line [83]
+[20:05:21] Script Error: LOCALS
+[20:05:21] Script Error: [models] TABLE
+[20:05:21] Script Error: [players] TABLE
+[20:05:21] Script Error: [hands] TABLE
+[20:05:21] Script Error: [objects] TABLE
+[20:05:21] Script Error: [boxUnloadingPoint] true
+[20:05:21] Script Error: [boxLoadingPoint] true
+[20:05:21] Script Error: [actionJobLoader] true
+[20:05:21] Script Error: [actionJobLoader] true
+[20:05:21] Script Error: [docksPointLeave] true
+[20:05:21] Script Error: [docksPointEnter] true
+[20:05:21] Script Error: [position] ARRAY
+[20:05:21] Script Error: [playerid] 0
+[20:05:21] Script Error: [this] TABLE
+[20:05:22] Script Error: AN ERROR HAS OCCURED [the index 'riggerClientEvent' does not exist]
+[20:05:22] Script Error: CALLSTACK
+[20:05:22] Script Error: *FUNCTION [onAction()] resources/default/server/roleplay.nut line [83]
+[20:05:22] Script Error: LOCALS
+[20:05:22] Script Error: [models] TABLE
+[20:05:22] Script Error: [players] TABLE
+[20:05:22] Script Error: [hands] TABLE
+[20:05:22] Script Error: [objects] TABLE
+[20:05:22] Script Error: [boxUnloadingPoint] true
+[20:05:22] Script Error: [boxLoadingPoint] true
+[20:05:22] Script Error: [actionJobLoader] true
+[20:05:22] Script Error: [actionJobLoader] true
+[20:05:22] Script Error: [docksPointLeave] true
+[20:05:22] Script Error: [docksPointEnter] true
+[20:05:22] Script Error: [position] ARRAY
+[20:05:22] Script Error: [playerid] 0
+[20:05:22] Script Error: [this] TABLE
+[20:05:24] Script Error: AN ERROR HAS OCCURED [the index 'riggerClientEvent' does not exist]
+[20:05:24] Script Error: CALLSTACK
+[20:05:24] Script Error: *FUNCTION [onAction()] resources/default/server/roleplay.nut line [83]
+[20:05:24] Script Error: LOCALS
+[20:05:24] Script Error: [models] TABLE
+[20:05:24] Script Error: [players] TABLE
+[20:05:24] Script Error: [hands] TABLE
+[20:05:24] Script Error: [objects] TABLE
+[20:05:24] Script Error: [boxUnloadingPoint] true
+[20:05:24] Script Error: [boxLoadingPoint] true
+[20:05:24] Script Error: [actionJobLoader] true
+[20:05:24] Script Error: [actionJobLoader] true
+[20:05:24] Script Error: [docksPointLeave] true
+[20:05:24] Script Error: [docksPointEnter] true
+[20:05:24] Script Error: [position] ARRAY
+[20:05:24] Script Error: [playerid] 0
+[20:05:24] Script Error: [this] TABLE
+[20:05:24] Script Error: AN ERROR HAS OCCURED [the index 'riggerClientEvent' does not exist]
+[20:05:24] Script Error: CALLSTACK
+[20:05:24] Script Error: *FUNCTION [onAction()] resources/default/server/roleplay.nut line [83]
+[20:05:24] Script Error: LOCALS
+[20:05:24] Script Error: [models] TABLE
+[20:05:24] Script Error: [players] TABLE
+[20:05:24] Script Error: [hands] TABLE
+[20:05:24] Script Error: [objects] TABLE
+[20:05:24] Script Error: [boxUnloadingPoint] true
+[20:05:24] Script Error: [boxLoadingPoint] true
+[20:05:24] Script Error: [actionJobLoader] true
+[20:05:24] Script Error: [actionJobLoader] true
+[20:05:24] Script Error: [docksPointLeave] true
+[20:05:24] Script Error: [docksPointEnter] true
+[20:05:24] Script Error: [position] ARRAY
+[20:05:24] Script Error: [playerid] 0
+[20:05:24] Script Error: [this] TABLE
+[20:05:25] Script Error: AN ERROR HAS OCCURED [the index 'riggerClientEvent' does not exist]
+[20:05:25] Script Error: CALLSTACK
+[20:05:25] Script Error: *FUNCTION [onAction()] resources/default/server/roleplay.nut line [83]
+[20:05:25] Script Error: LOCALS
+[20:05:25] Script Error: [models] TABLE
+[20:05:25] Script Error: [players] TABLE
+[20:05:25] Script Error: [hands] TABLE
+[20:05:25] Script Error: [objects] TABLE
+[20:05:25] Script Error: [boxUnloadingPoint] true
+[20:05:25] Script Error: [boxLoadingPoint] true
+[20:05:25] Script Error: [actionJobLoader] true
+[20:05:25] Script Error: [actionJobLoader] true
+[20:05:25] Script Error: [docksPointLeave] true
+[20:05:25] Script Error: [docksPointEnter] true
+[20:05:25] Script Error: [position] ARRAY
+[20:05:25] Script Error: [playerid] 0
+[20:05:25] Script Error: [this] TABLE
+[20:05:26] Script Error: AN ERROR HAS OCCURED [the index 'riggerClientEvent' does not exist]
+[20:05:26] Script Error: CALLSTACK
+[20:05:26] Script Error: *FUNCTION [onAction()] resources/default/server/roleplay.nut line [83]
+[20:05:26] Script Error: LOCALS
+[20:05:26] Script Error: [models] TABLE
+[20:05:26] Script Error: [players] TABLE
+[20:05:26] Script Error: [hands] TABLE
+[20:05:26] Script Error: [objects] TABLE
+[20:05:26] Script Error: [boxUnloadingPoint] true
+[20:05:26] Script Error: [boxLoadingPoint] true
+[20:05:26] Script Error: [actionJobLoader] true
+[20:05:26] Script Error: [actionJobLoader] true
+[20:05:26] Script Error: [docksPointLeave] true
+[20:05:26] Script Error: [docksPointEnter] true
+[20:05:26] Script Error: [position] ARRAY
+[20:05:26] Script Error: [playerid] 0
+[20:05:26] Script Error: [this] TABLE
+[20:05:41] Script Error: AN ERROR HAS OCCURED [the index 'riggerClientEvent' does not exist]
+[20:05:41] Script Error: CALLSTACK
+[20:05:41] Script Error: *FUNCTION [onAction()] resources/default/server/roleplay.nut line [83]
+[20:05:41] Script Error: LOCALS
+[20:05:41] Script Error: [models] TABLE
+[20:05:41] Script Error: [players] TABLE
+[20:05:41] Script Error: [hands] TABLE
+[20:05:41] Script Error: [objects] TABLE
+[20:05:41] Script Error: [boxUnloadingPoint] true
+[20:05:41] Script Error: [boxLoadingPoint] true
+[20:05:41] Script Error: [actionJobLoader] true
+[20:05:41] Script Error: [actionJobLoader] true
+[20:05:41] Script Error: [docksPointLeave] true
+[20:05:41] Script Error: [docksPointEnter] true
+[20:05:41] Script Error: [position] ARRAY
+[20:05:41] Script Error: [playerid] 0
+[20:05:41] Script Error: [this] TABLE
+[20:06:13] [quit] space2pacman has left the server (Timed Out).
+[20:06:57] ==============================================================
+[20:06:57] = Mafia2-Online v0.1 RC4 [Windows]
+[20:06:57] ==============================================================
+[20:06:57] = Server name    : Mafia2-Online RolePlay
+[20:06:57] = Server port    : 7777
+[20:06:57] = Max players    : 1000
+[20:06:57] = Has password   : No
+[20:06:57] = Log file       : logs/April 2020/m2online-server-11-4-2020.log
+[20:06:57] ==============================================================
+[20:06:57] Successfully loaded 1 resources. (0 failed)
+
+[20:07:18] [network] Incoming connection from 127.0.0.1:1042.
+[20:07:18] [join] space2pacman has connected to the server.
+[20:07:19] [spawn] space2pacman has spawned.
+[20:07:23] [quit] space2pacman has left the server (Quit).
+[20:07:24] [network] Incoming connection from 127.0.0.1:1045.
+[20:07:24] [join] space2pacman has connected to the server.
+[20:07:24] [spawn] space2pacman has spawned.
+[20:09:00] [quit] space2pacman has left the server (Quit).

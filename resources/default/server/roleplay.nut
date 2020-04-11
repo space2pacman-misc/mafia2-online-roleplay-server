@@ -80,12 +80,12 @@ function onAction(playerid) {
     }
 
     if(boxLoadingPoint && players[playerid]["work"] == "loader") {
-        riggerClientEvent(playerid, "onBoxUnloading");
-        etPlayerHandModel(playerid, hands["left"], objects["box"]);
-        etPlayerHandModel(playerid, hands["left"], objects["box"]);
-        etPlayerAnimStyle(playerid, "common", "CarryBox");
-        etPlayerAnimStyle(playerid, "common", "CarryBox");
-        layers[playerid]["hand"] = objects["box"];
+        triggerClientEvent(playerid, "onBoxUnloading");
+        setPlayerHandModel(playerid, hands["left"], objects["box"]);
+        setPlayerHandModel(playerid, hands["left"], objects["box"]);
+        setPlayerAnimStyle(playerid, "common", "CarryBox");
+        setPlayerAnimStyle(playerid, "common", "CarryBox");
+        players[playerid]["hand"] = objects["box"];
     }
 
     if(boxUnloadingPoint && players[playerid]["work"] == "loader") {

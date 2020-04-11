@@ -12,8 +12,8 @@ local hands = {
 }
 
 function init() {
-    setGameModeText( "EB-RP" );
-    setMapName( "Empire Bay" );
+    setGameModeText("EB-RP");
+    setMapName("Empire Bay");
     setSummer(false);
     setWeather("DT03part03MariaAgnelo");
 

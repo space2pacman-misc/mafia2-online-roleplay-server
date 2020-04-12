@@ -32,7 +32,7 @@ function playerSpawn(playerid){
     players[playerid]["money"] <- 10;
     players[playerid]["salary"] <- 0;
     players[playerid]["hand"] <- 0;
-    players[playerid]["work"] <- 0;
+    players[playerid]["work"] <- "unemployed";
 }
 
 function onAction(playerid) {
